@@ -1,0 +1,79 @@
+# Snakemake internal files
+.snakemake/
+
+
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+
+# SRA Toolkit downloads / temporary files
+*.sra
+*.sra.tmp
+*.sra.prf
+
+
+# Alignment files
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+
+
+# Variant files
+*.vcf
+*.vcf.gz
+*.bcf
+*.tbi
+
+
+# Reference genome files
+*.fa
+*.fasta
+*.fa.gz
+*.fasta.gz
+*.fai
+
+# BWA/BWA-MEM2 indexes
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+
+# Generated workflow results
+**/results/*
+
+# Allow placeholder so results/ directory can exist in GitHub
+!**/results/.gitkeep
+
+
+# Raw data directories
+**/data/raw/*
+
+# Allow placeholder
+!**/data/raw/.gitkeep
+
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+
+
+# macOS
+.DS_Store
+
+
+# Python
+__pycache__/
+*.pyc
+
+
+# Conda local environments
+.conda/
+conda-env/
