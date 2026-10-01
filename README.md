@@ -1,6 +1,6 @@
 <div align="center">
 
-#Reproducible Whole Exome Sequencing Analysis With Snakemake and Conda Environment
+# Reproducible Whole Exome Sequencing Analysis With Snakemake and Conda Environment
 
 ### A reproducible Snakemake workflow for WES preprocessing and quality control
 
@@ -14,7 +14,7 @@
 
 This project builds a **reproducible whole-exome sequencing workflow** using Snakemake and Conda.
 
-The current pipeline downloads a public paired-end dataset which is huge ```bash(let it run and do your other stuffs)``` ,from NCBI SRA and performs:
+The current pipeline downloads a public paired-end dataset which is huge ```let it run and do your other stuffs``` ,from NCBI SRA and performs:
 
 ```text
 SRA download
